@@ -20,7 +20,7 @@ function calculatesFarePrice(startBlock,endBlock){
      fare-=priceFor400Feet
    }else if(d >= 2000){
      fare=25
-   }else if(d >= 2500){
+   }else if(d >=2500){
      return "cannot travel that far"
    }
   return Math.round(fare*100)/100;
