@@ -25,7 +25,7 @@ function calculatesFarePrice(startBlock,endBlock){
    }else if(d >=2500){
      flare="cannot travel that far"
    }else{
-     fare="cannot travel that far"
+     fare=0
    }
   return fare;
 }
