@@ -15,7 +15,8 @@ function calculatesFarePrice(startBlock,endBlock){
    const d = distanceTravelledInFeet(startBlock,endBlock);
    let fare=0
    if(d>400 && d<=2000){
-     fare=d*2
+     d-=400 
+     flare=d*0.00
    }
   return fare;
 }
