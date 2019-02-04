@@ -28,7 +28,6 @@ function calculatesFarePrice(startBlock,endBlock){
      console.log("THERRE!!!")
      fare="cannot travel that far"
    }else{
-     console.log("NO THERE!!")
      fare=0
    }
   return fare;
