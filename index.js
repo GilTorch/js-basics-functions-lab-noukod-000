@@ -17,5 +17,5 @@ function calculatesFarePrice(startBlock,endBlock){
    if(d>400 && d<=200){
      fare=d*2
    }
-   
+
 }
