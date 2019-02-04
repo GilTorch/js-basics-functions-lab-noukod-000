@@ -16,6 +16,8 @@ function calculatesFarePrice(startBlock,endBlock){
    let fare=0
    if(d>400 && d<=2000){
      flare=d*2
+   }elsif(d >= 2000){
+     flare=d*25
    }
   return fare;
 }
