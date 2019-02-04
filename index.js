@@ -21,5 +21,5 @@ function calculatesFarePrice(startBlock,endBlock){
    }else if(d >= 2000){
      flare=d*25
    }
-  return fare;
+  return Math.round(fare*100)/100;
 }
