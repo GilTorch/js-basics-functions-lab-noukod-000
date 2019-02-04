@@ -23,7 +23,7 @@ function calculatesFarePrice(startBlock,endBlock){
      fare=25
      fare=Math.round(fare*100)/100
    }else if(d >=2500){
-     flare="cannot travel that far"
+     fare="cannot travel that far"
    }else{
      fare=0
    }
