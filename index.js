@@ -8,5 +8,5 @@ function distanceFromHqInFeet(d){
 }
 
 function distanceTravelledInFeet(){
-  
+
 }
