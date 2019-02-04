@@ -18,6 +18,7 @@ function calculatesFarePrice(startBlock,endBlock){
      const priceFor400Feet=400*(2/100)
      fare=d*(2/100)
      fare-=priceFor400Feet
+     fare=Math.round(flare/100)*100
    }else if(d >= 2000){
      flare=d*25
    }
