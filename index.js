@@ -4,5 +4,5 @@ function distanceFromHqInBlocks(d){
 }
 
 function distanceFromHqInFeet(d){
-  return Math.round(Math.abs(d*6.14))
+  return distanceFromHqInBlocks*6.14
 }
