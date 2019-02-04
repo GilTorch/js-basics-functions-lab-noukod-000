@@ -24,7 +24,7 @@ function calculatesFarePrice(startBlock,endBlock){
      console.log("THERE")
      fare=25
      fare=Math.round(fare*100)/100
-   }else if(d >=2500){
+   }else if(d > 2500){
      console.log("THERRE!!!")
      fare="cannot travel that far"
    }else{
